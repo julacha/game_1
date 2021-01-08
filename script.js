@@ -8,12 +8,12 @@ cell.addEventListener("click", function () {
  // for (let i = 1; i <= 9; i++) {
   let symbol = document.createElement("div");
   let i = 0;
-  let x;
+  new_click = "x";
   symbol.textContent = i;
   if(i !== 0) {
-    i === x;
+  symbol.textContent = new_click;
 } else {
-  i === 0;
+  i = 0;
 }
   cell.append(symbol);
   //}
