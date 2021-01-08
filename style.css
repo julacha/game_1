@@ -7,7 +7,17 @@
     justify-content: space-around;
     padding: 4px;
     }
-    .square{
+    /* .square{
+    width: 70px;
+    height: 70px;
+    margin: 4px;
+    background: rgb(124, 208, 211);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    } */
+    .cell{
     width: 70px;
     height: 70px;
     margin: 4px;
@@ -17,6 +27,7 @@
     align-items: center;
     text-decoration: none;
     }
+
     span{
         display: inline-block;
         /* transform: rotate(45deg); */
